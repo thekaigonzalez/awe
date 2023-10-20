@@ -1,4 +1,4 @@
-# awe / fun
+# awe / fun 2
 
 a simple language designed to be useful for understanding control flow, making
 it a good programming language to learn about and teach.
@@ -28,3 +28,9 @@ fn final {
 * The call stack is a stack of functions to be executed in order
 * Each function in the call stack is ran
 * Close the block, rinse and repeat
+
+## Differences
+
+This language has a different API than funLang, as it breaks statements down
+into smaller statements and etc to make it easier to parse different statements
+separately. funLang 3 coming soon
