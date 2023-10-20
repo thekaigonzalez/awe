@@ -7,12 +7,12 @@ it a good programming language to learn about and teach.
 
 ```fun
 fn main {
-    goto pmain;
+    do pmain;
 }
 
 fn pmain {
     print "hello from pmain!";
-    goto final;
+    do final;
 }
 
 fn final {
