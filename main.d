@@ -16,8 +16,6 @@ val example_add(val[] args, env* e) {
     
     e.variables["@"] = c;
 
-    writefln("added variable %s", e.variables);
-
     return val_create("0");
 }
 

@@ -1,8 +1,12 @@
 fn main {
-    add 1 2
     do "pmain"
 }
 
 fn pmain {
-    print "hello, world from pmain"
+    print "hello from pmain!"
+    do "final"
+}
+
+fn final {
+    print "hello from final!"
 }

@@ -350,7 +350,6 @@ decl[] lex_replace_with_variables(env* v, string stat)
 
             //     }
             // }
-            writefln("%s", v.variables);
             for (int j = 0; j < l[i].callstack.length; j++) { // moving through the callstack
 
                 for (int k = 0; k < l[i].callstack[j].vals.length; k++) {
@@ -449,7 +448,6 @@ void fun_run(env* e, string blok)
 
     decl[] decs = parse_declarations(blok);
     decs = lex_replace_with_variables(e, blok);
-    writefln("%s", decs);
     foreach (decl; decs)
     {
         e.declarations ~= decl;
