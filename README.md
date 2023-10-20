@@ -7,16 +7,16 @@ it a good programming language to learn about and teach.
 
 ```fun
 fn main {
-    do pmain;
+    do "pmain"
 }
 
 fn pmain {
-    print "hello from pmain!";
-    do final;
+    print "hello from pmain!"
+    do "final"
 }
 
 fn final {
-    print "hello from final!";
+    print "hello from final!"
 }
 
 ```
